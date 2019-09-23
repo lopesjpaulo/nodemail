@@ -1,10 +1,10 @@
-# ENVIO DE E-MAIL COM NODE
+# ENVIO DE E-MAIL USANDO NODE.JS
 
 Projeto usado para o aprendizado de envio de e-mail com Node, Express e Nodemailer.
 
 ## Tecnologias usadas
 
-- Node
+- Node.js
 - Express
 - Nodemailer
 
