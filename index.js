@@ -18,7 +18,8 @@ const mailOptions = {
     from: process.env.EMAIL,
     to: process.env.EMAILSEND,
     subject: 'Email com node',
-    text: 'Texto teste'
+    text: 'Texto teste',
+    html: '<h1>Título</h1><p>Texto!</p>'
 };
 
 transporter.sendMail(mailOptions, function(error, info){
